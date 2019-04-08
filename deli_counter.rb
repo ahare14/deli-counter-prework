@@ -14,6 +14,17 @@ def line(katz_deli)
   end
 end
 
+def take_a_number(katz_deli,name)
+  katz_deli.push(name)
+  postion = katz_deli.index(name)
+  puts "Welcome, #{name}. You are number #{postion + 1} in line."
+end
+
+  
+
+
+
+
 
 # katz_deli = []
 #
